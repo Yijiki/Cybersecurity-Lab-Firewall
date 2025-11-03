@@ -16,19 +16,23 @@ Another significant problem is ensuring system reliability. Given that a core se
 
 Three limitations of traditional or improperly configured network security systems have been identified below:
 
-- Lack of Deep Threat Visibility: Many standard firewalls only filter traffic based on basic IP addresses and ports meaning they cannot inspect the actual content / application layer of the data. This allows sophisticated threats such as malware hidden in legitimate looking traffic or zero-day exploits to pass through undetected.
-
 - Single Point of Failure: Many network security systems rely on a single firewall introducing massive operational risk as routine events like firmware updates, scheduled maintenance or physical device failures can disrupt all network connectivity. This can lead to critical service downtime and interruption of business functions.
+
+- Lack of Deep Threat Visibility: Many standard firewalls only filter traffic based on basic IP addresses and ports meaning they cannot inspect the actual content / application layer of the data. This allows sophisticated threats such as malware hidden in legitimate looking traffic or zero-day exploits to pass through undetected.
 
 - Inconsistent Enforcement of Web Policies: Many network security systems find it difficult to enforce corporate security policies on web usage. This lack of control allows users to access dangerous or unwanted websites increasing the network's exposure to malware and other threats.
 
 ## Skills Learned
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
+- Deployed and configured a firewall integrating key security components like an IDS/IPS, content filtering and NGFW features.
+
+- Designed and built a high availability infrastructure utilizing CARP/pfSync for firewall clustering and Multi-WAN failover / load balancing for consistent connectivity.
+
+- Enhanced ability to define, implement and test complex firewall rule sets and NAT policies.
+
+- Enhanced ability to analyse and interpret firewall traffic logs for signs of irregularity and Indicators of Compromise (IOCs).
+
+- Practical skills in conducting controlled system failover exercises and managing traffic distribution to ensure system continuity under peak loads.
 
 ## Technologies Used
 
