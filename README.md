@@ -2,7 +2,7 @@
 
 ## Objective
 
-This project focuses on building a multi-layered network security system to help prevent cyberattacks, guarantee constant uptime and control network traffic. The system leverages open-source tools like OPNsense, SquidProxy, Suricata and Zenarmor to assist with deep packet inspection, content filtering and real-time threat monitoring. A core part of the project was configuring high availability using CARP as well as setting up Multi-WAN failover and load balancing. This project successfully created a secure and resilient network perimeter demonstrating practical skills in network hardening and security operations.
+This project focuses on building a multi-layered network security system to help prevent cyberattacks, guarantee constant uptime and control network traffic. The system leverages open-source tools like OPNsense, SquidProxy, Suricata and Zenarmor to assist with deep packet inspection, content filtering and real-time threat monitoring. A core part of the project was configuring high availability using CARP as well as setting up multi-WAN failover and load balancing. This project successfully created a secure and resilient network perimeter demonstrating practical skills in network hardening and security operations.
 
 ## Background and Motivation
 
@@ -18,7 +18,7 @@ Three limitations of traditional or improperly configured network security syste
 
 - Single Point of Failure: Many network security systems rely on a single firewall introducing massive operational risk as routine events like firmware updates, scheduled maintenance or physical device failures can disrupt all network connectivity. This can lead to critical service downtime and interruption of business functions.
 
-- Lack of Deep Threat Visibility: Many standard firewalls only filter traffic based on basic IP addresses and ports meaning they cannot inspect the actual content / application layer of the data. This allows sophisticated threats such as malware hidden in legitimate looking traffic or zero-day exploits to pass through undetected.
+- Lack of Deep Threat Visibility: Many standard firewalls only filter traffic based on basic IP addresses and ports meaning they cannot inspect the actual content/application layer of the data. This allows sophisticated threats such as malware hidden in legitimate looking traffic or zero-day exploits to pass through undetected.
 
 - Inconsistent Enforcement of Web Policies: Many network security systems find it difficult to enforce corporate security policies on web usage. This lack of control allows users to access dangerous or unwanted websites increasing the network's exposure to malware and other threats.
 
@@ -26,7 +26,7 @@ Three limitations of traditional or improperly configured network security syste
 
 - Deployed and configured a firewall integrating key security components like an IDS/IPS, content filtering and NGFW features.
 
-- Designed and built a high availability infrastructure utilizing CARP/pfSync for firewall clustering and Multi-WAN failover / load balancing for consistent connectivity.
+- Designed and built a high availability infrastructure utilizing CARP/pfSync for firewall clustering and multi-WAN failover/load balancing for consistent connectivity.
 
 - Enhanced ability to define, implement and test complex firewall rule sets and NAT policies.
 
