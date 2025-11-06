@@ -36,11 +36,17 @@ Three limitations of traditional or improperly configured network security syste
 
 ## Technologies Used
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar.
+The network security system was developed using the following technologies:
+
+- OPNsense was selected as the firewall platform. Other solutions such as pfSense were considered however OPNsense’s lower resource requirements, native plugin ecosystem and support for high availability protocols like CARP made it the preferred choice.
+
+- Suricata was selected as the IDS/IPS. Other solutions such as Snort were considered however Suricata’s flexible rule set management and superior performance in detecting unusual network activity made it the preferred choice.
+
+- Zenarmor was selected to provide NGFW functionality. This module provides the ability to inspect the application layer of network data via Deep Packet Inspection (DPI) offering greater 
+visibility than basic port-level inspections.
+
+- SquidProxy was selected to manage web traffic. Configured as a standard proxy, this module provides the ability to control content access and leverages caching to improve network response times.
+
 
 ## Steps
 
