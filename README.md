@@ -50,7 +50,9 @@ visibility than basic port-level inspections.
 
 ## Steps
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit aliquet mi nec pulvinar. Nam sed fringilla diam. Vivamus consectetur mollis arcu eu dictum. Phasellus lobortis ornare libero sit amet bibendum. Sed egestas elit sed lacus semper auctor. Cras ac iaculis velit. Aliquam interdum ultrices enim, vel auctor leo vulputate ac. Sed feugiat erat non libero accumsan fermentum. Nulla vel nibh et magna lacinia tempus sit amet at mauris.
+A full, detailed walkthrough of the firewall setup can be found in the PDF below:
+
+[Technical Manual for OPNsense Firewall (WIP)](./Technical_Manual_for_OPNsense_Firewall.pdf)
 
 ## Strategy/Approach
 
